@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abubakar Aminu</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/3a709decdf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo.png" class="logo">
+        <ul id="sidemenu">
+          <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>UI/UX Designer</p>
+        <h1>Hi, I'm <span>Kelvin</span><br>Jen From Austria</h1>
+      </div>
+    </div>
+  </div>
+<!-----------------------------about----------------------------------------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/user.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam vehicula lorem, et semper dolor sollicitudin convallis. Nulla ac lacus magna. Quisque ultricies tellus nec elit consequat pellentesque. 
+            Curabitur mi velit, vestibulum et facilisis quis, feugiat auctor nibh. Maecenas vulputate urna a pretium porttitor. 
+            Cras eu orci est. Nunc metus sapien, pulvinar sit amet laoreet id, vestibulum nec ipsum. Nullam gravida at felis vestibulum imperdiet. Proin tellus ante, aliquam at enim et, aliquam ultricies purus. 
+            Aenean arcu ipsum, cursus sit amet ullamcorper vitae, euismod vel purus.</p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Graphics Design</span><br>Designing Logos and Flyers</li>
+                <li><span>UI/UX Design</span><br>Designing Web/App Prototypes</li>
+                <li><span>Web Development</span><br>Web App Development</li>
+                <li><span>App Development</span><br>Building Android/Ios Apps</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2022 - Till Date</span><br>Visual Designer at Fiverr</li>
+                <li><span>2017 - 2021</span><br>Junior Visual Designer at Design-Hub</li>
+                <li><span>2015 - 2016</span><br>Internship at Design-Hub</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2021</span><br>Diploma in Back-End Web Development at Udemy</li>
+                <li><span>2019</span><br>Diploma in Front-End Web Development at Udemy</li>
+                <li><span>2018</span><br>Diploma in UX/UI Design at Udemy</li>
+                <li><span>2015-2017</span><br>Diploma in Graphics Design at Graphics-Porte</li>
+                <li><span>2012</span><br>Senior School Certificate Examination</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!---------------------------------Services--------------------------------------->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam vehicula lorem, et semper dolor sollicitudin convallis.</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-desktop"></i>
+        <h2>UX/UI Design</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam vehicula lorem, et semper dolor sollicitudin convallis.</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store-ios"></i>
+        <h2>App Design</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam vehicula lorem, et semper dolor sollicitudin convallis. </p>
+        <a href="#">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!---------------Portfolio----------------------->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work-1.png">
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <p>The app connects you to talented people around the world. Download it from the appstore.</p>
+            <a href="#"><i class="fa-solid fa-download"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-2.png">
+        <div class="layer">
+          <h3>Music App</h3>
+          <p>The app connects you to talented people around the world. Download it from the appstore.</p>
+            <a href="#"><i class="fa-solid fa-download"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-3.png">
+        <div class="layer">
+          <h3>E-Commerce App</h3>
+          <p>The app connects you to talented people around the world. Download it from the appstore.</p>
+            <a href="#"><i class="fa-solid fa-download"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+
+<!--------------Contact----------------------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+        <p><i class="fa-solid fa-phone-volume"></i>01234567</p>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="E-mail" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright © 2022 Kelvin. All Rights Reserved </p>
+  </div>
+</div>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemenu.style.right = "0";
+    }
+    function closemenu(){
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyos9vwrQg6ABGv086ieTZeG9GJm4IKClBgczSAQ0q8mCHbKBG3sK2OyoNEHF8MO1Nb9A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+            msg.innerHTML = ""
+          }, 5000)
+          form.reset()
+       })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+</body>
+</html>
